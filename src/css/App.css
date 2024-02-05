@@ -1,0 +1,45 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.orderCon {
+  max-width: 400px;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  border: #333 1px solid;
+}
+
+.orderCon ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.orderCon li {
+  margin-bottom: 10px;
+}
+
+.orderCon button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.orderCon button:hover {
+  background-color: #45a049;
+}
