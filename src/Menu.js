@@ -1,7 +1,7 @@
-// Menu.js
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { addToCart } from './Action';
+import Cart from './Cart';
 
 const Menu = () => {
   const dispatch = useDispatch();
@@ -22,20 +22,23 @@ const Menu = () => {
   };
 
   return (
-    <div class="orderCon">
-      <h2>菜單</h2>
-      <ul>
-        {menuItems.map((item) => (
-          <li key={item.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <div>
-              {item.name} - NT${item.price}
-            </div>
-            <button onClick={() => handleAddToCart(item)}>
-              十
-            </button>
-          </li>
-        ))}
-      </ul>
+    <div>
+      <div class="orderCon">
+        <h2>菜單</h2>
+        <ul>
+          {menuItems.map((item) => (
+            <li key={item.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+              <div>
+                {item.name} - NT${item.price}
+              </div>
+              <button onClick={() => handleAddToCart(item)}>
+                十
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <Cart />
     </div>
   );
 
