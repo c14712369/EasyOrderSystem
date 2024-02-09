@@ -1,0 +1,96 @@
+/* 父容器 */
+.ManageModeCon {
+  display: flex;
+  justify-content: center;
+  background-color: #d2e3c8;
+}
+
+/* 功能列 */
+.SideBar {
+  background-color: #86a789;
+  height: calc(100vh - 20px);
+  min-width: 200px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.SideBar ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.SideBar ul li {
+  padding: 15px 0;
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.SideBar ul li:hover {
+  background-color: #adbc9f;
+}
+
+/* 新增、編輯預覽的父容器 */
+
+.addItem {
+  display: flex;
+  flex-direction: column;
+  min-width: 800px;
+  background-color: #739072;
+  padding: 20px 0;
+  margin-left: 50px;
+}
+
+.addItemHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.editButton {
+  min-width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.editButton button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.editButton button:hover {
+  background-color: #99bc85;
+  cursor: pointer;
+}
+
+.itemClass select {
+  width: 75px;
+  border-radius: 0.5rem;
+  padding: 2px 0;
+  text-align: center;
+}
+
+/* 新增 */
+
+.addItemMain {
+  margin: 20px 50px;
+  border: 1px solid #333;
+  border-radius: 1rem;
+  padding: 20px 0;
+}
+
+.itemInfo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.itemInfo img {
+  width: 25px;
+  height: 25px;
+}

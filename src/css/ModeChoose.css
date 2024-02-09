@@ -1,0 +1,25 @@
+.ModeCon {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Business {
+  flex-basis: 50%;
+  background-color: #c9d7dd;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Manage {
+  flex-basis: 50%;
+  background-color: #637a9f;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
