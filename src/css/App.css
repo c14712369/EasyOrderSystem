@@ -7,7 +7,6 @@ body {
 
 h1,
 h2 {
-  text-align: center;
   color: #333;
 }
 
@@ -45,6 +44,5 @@ h2 {
 
 .flex {
   display: flex;
-  justify-content: center;
   align-items: center;
 }

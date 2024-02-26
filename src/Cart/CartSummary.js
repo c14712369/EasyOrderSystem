@@ -30,8 +30,6 @@ const CartSummary = () => {
         0
     );
 
-    console.log(totalItems, totalPrice, itemQuantities);
-
     return (
         <div className='cartSumCon'>
             <span className='cartSumSpan'>當前品項總數: {totalItems}</span>

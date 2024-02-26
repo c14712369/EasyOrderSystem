@@ -4,11 +4,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { Provider } from "react-redux";
 import "./css/App.css";
-import store from "./store";
+import store from "./Redux/store";
 import Login from "./Login";
-import ModeChoose from "./ModeChoose";
-import ManageMode from "./ManageMode";
-import BusinessMode from "./BusinessMode";
+import ModeChoose from "./Component/ModeChoose";
+import ManageMode from "./Component/ManageMode";
+import BusinessMode from "./Component/BusinessMode";
 
 const App = () => {
   return (

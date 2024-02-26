@@ -1,4 +1,3 @@
-// reducers.js
 import { ADD_TO_CART, CLEAR_CART } from './Action';
 
 const initialState = {

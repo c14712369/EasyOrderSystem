@@ -1,0 +1,148 @@
+
+
+/* 編輯BTN */
+.addItemHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.editButton {
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.editButton button {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 18px;
+}
+
+.editButton button:hover {
+    background-color: #99bc85;
+    cursor: pointer;
+}
+
+/* 商品分類 */
+
+.itemClass {
+    font-size: 18px;
+}
+
+.itemClass select {
+    width: 100px;
+    border-radius: 0.5rem;
+    padding: 5px 0;
+    text-align: center;
+    outline: none;
+}
+
+/* 新增 */
+
+.functionCon {
+    margin: 20px 50px;
+    border: 1px solid #333;
+    border-radius: 1rem;
+    padding: 30px 50px;
+    background-color: #ccc
+}
+
+.itemInfo {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px #333 solid;
+    padding: 15px 0;
+}
+
+
+.itemInfo input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#delete {
+    width: 25px;
+    height: 25px;
+}
+
+#delete:hover {
+    cursor: pointer;
+}
+
+.ClassAndOrder {
+    gap: 10px;
+    font-size: 18px;
+}
+
+
+.fileCon {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.fileCon img {
+    width: 150px;
+    height: 150px;
+}
+
+.itemInfo .fileCon input {
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: none;
+}
+
+/* 商品細項 */
+
+.addItemCon {
+    border: 1px solid #333;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.addItemCon img {
+    width: 200px;
+    height: 200px;
+}
+
+.addItemCon button {
+    width: 80px;
+    padding: 10px 0;
+    margin: 0;
+    background-color: #3D3B40;
+    color: white;
+    cursor: pointer;
+}
+
+.addItemBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.Item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addItemCon1 {
+    border: 1px solid #333;
+    padding: 20px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}

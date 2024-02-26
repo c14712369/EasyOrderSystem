@@ -1,0 +1,47 @@
+span {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+
+.CategoryContainer {
+    margin-bottom: 20px;
+}
+
+.header{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header span{
+    background-color: brown;
+    padding: 10px 15px;
+}
+
+.ProductsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.ProductCon {
+    border: 1px solid #333;
+    padding: 10px 10px;
+    font-size: 20px;
+    width: 32%;
+    box-sizing: border-box;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}

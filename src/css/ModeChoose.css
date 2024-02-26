@@ -1,25 +1,38 @@
+h1 {
+  font-size: 3rem;
+  transition: transform 0.5s ease; /* Added transition property */
+}
+
 .ModeCon {
   display: flex;
   width: 100vw;
   height: 100vh;
 }
 
-.Business {
+.Mode {
   flex-basis: 50%;
-  background-color: #c9d7dd;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  opacity: 0.5;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Business {
+  background-color: #c9d7dd;
 }
 
 .Manage {
-  flex-basis: 50%;
   background-color: #637a9f;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+}
+
+.Mode:hover {
+  opacity: 1;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5), 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Mode:hover > h1 {
+  transform: scale(1.3);
 }
